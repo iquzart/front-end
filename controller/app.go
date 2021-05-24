@@ -11,7 +11,7 @@ func Home(c *gin.Context) {
 		http.StatusOK,
 		"views/index.html",
 		gin.H{
-			"title": "Geeksbeginner",
+			"title": "Test App",
 		},
 	)
 

@@ -22,6 +22,6 @@ func NoFound(ctx *gin.Context) {
 	//	)
 	ctx.String(
 		http.StatusNotFound,
-		"Page nit found!")
+		"Page not found!")
 
 }
